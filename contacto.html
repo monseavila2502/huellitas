@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Huellitas</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <style>
+      
+      h3 {
+        font-family: sans-serif;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+      }
+      table {
+        font-family: sans-serif;
+        border: 3px solid #BCFFC8 ;
+        padding: 20px 50px;
+        margin-top: 20px;
+        background-color: #BCFFC8 ;
+      }
+    </style>
+</head>
+<body>
+    <h1><img src="E:/proyecto2/imagenes/logo.jpg" width="250" height="210"></h1>
+
+    <nav>
+        <ul>
+            <li><a href="principio.html">INICIO</a></li>
+            <li><a href="perros_inicio.html">PRODUCTOS</a></li>
+            <li><a href="contacto.html">COMPRAS</a></li>
+        </ul>
+    </nav>
+     <div id="content">
+    <h3>Realiza tu compra</h3>
+    <form action="registro.php" method="POST">
+          <center><table border="1">
+            <tr>
+                <td><label>Nombres</label></td>
+                <td><input type="text" name="nombreuser" placeholder="Nombres" required/></td>
+            </tr>
+            <tr>
+                <td><label>Apellidos</label></td>
+                <td><input type="text" name="apellidosuser" placeholder="Apellidos" required/></td>
+            </tr>
+            <tr>
+                <td><label>Correo electronico</label></td>
+                <td><input type="text" name="emailuser" placeholder="example@mail.com" required/></td>
+            </tr>
+            <tr>
+                <td><label>Domicilio</label></td>
+                <td><input type="text" name="domicilio" placeholder="Domicilio" required/></td>
+            </tr>
+            <tr>
+                <td><label>Telefono</label></td>
+                <td><input type="number" name="tele" placeholder="Telefono" required/></td>
+            </tr>
+            <tr>
+                <td><label>Nombre del producto a comprar</label></td>
+                <td><input type="text" name="prod" placeholder="Producto" required/></td>
+            </tr>
+            <tr>
+                <td><label><input type="submit" value="Realizar compra"></input></label></td>
+                <td><label><input type="reset" value="Reestablecer"></input></label></td>
+            </tr>
+          </table></center>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,319 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	background-color: #f7f1e5;
+	color: white;
+}
+nav ul{
+	background-color: #2AA988;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	font-family: sans-serif;
+	display: inline-flex;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	width: 150px;
+}
+nav li:hover {
+	background-color: #195D4C;
+}
+.titulo-perro{
+	font-family: sans-serif;
+	color: #FF7C00;
+	text-align: center;
+	padding: 30px;
+}
+img{
+	object-fit: cover;
+
+}
+.inicio img {
+	width: 792px;
+	height: 198px;
+	object-fit: cover;
+	padding: 40px;
+}
+.secciones img {
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	object-fit: cover;
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 1px;
+	text-decoration: none;
+	color: white;
+	background-color: #195D4C;
+}
+.secciones img:hover{
+	color: black;
+	background-color: #2FA487;
+}
+.secciones {
+	display: flex;
+	align-items: center;
+	padding: 40px;
+}
+footer {
+	width: 100%;
+	height: 350px;
+	background-color: black;
+	color: white;
+	margin-top: 40px;
+}
+footer p {
+	text-align: center;
+	font-family: sans-serif;
+	padding: 50px;
+}
+*{
+	box-sizing: border-box;
+}
+section{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.card{
+	width: 33%;
+}
+.estilo-a{
+	font-family: sans-serif;
+	text-align: center;
+}
+.estilo-a a{
+	text-decoration: none;
+	color: black;
+}
+.estilo-a .img-container{
+	overflow: hidden;
+	position: relative;
+}
+.estilo-a :hover .img-container img{
+	transform: scale(1.2);
+}
+.estilo-a a{
+	text-align: center;
+	display: inline-block;
+	margin-top: 5px;
+	text-decoration: none;
+	color: white;
+	background-color: green;
+	padding: 15px;
+
+}
+.estilo-a a:hover{
+	color: black;
+	background-color: #CEFF55;
+
+}
+.menu-perros a{
+	text-decoration: none;
+	color: black;
+}
+.menu-perros a{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #5482CE;
+	padding: 40px;
+	width: 50%;
+	list-style-type: none;
+
+}
+.menu-perros a:hover{
+	color: black;
+	background-color: #A9CCE3;
+
+}
+.menu-perros img{
+   float: right;
+}
+.menu-gatos a{
+	text-decoration: none;
+	color: black;
+}
+.menu-gatos a{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #FE6000;
+	padding: 40px;
+	width: 50%;
+	list-style-type: none;
+
+}
+.menu-gatos a:hover{
+	color: black;
+	background-color: #FFB85C;
+
+}
+.menu-gatos img{
+   float: right;
+}
+.menu-reptil a{
+	text-decoration: none;
+	color: black;
+}
+.menu-reptil a{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: green;
+	padding: 40px;
+	width: 50%;
+	list-style-type: none;
+
+}
+.menu-reptil a:hover{
+	color: black;
+	background-color: #76FF04;
+
+}
+.menu-reptil img{
+   float: right;
+}
+.menu-pez a{
+	text-decoration: none;
+	color: black;
+}
+.menu-pez a{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #F40282;
+	padding: 40px;
+	width: 50%;
+	list-style-type: none;
+
+}
+.menu-pez a:hover{
+	color: black;
+	background-color: #FE68B7;
+
+}
+.menu-pez img{
+   float: right;
+}
+.menu-aves a{
+	text-decoration: none;
+	color: black;
+}
+.menu-aves a{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #DE0B0B;
+	padding: 40px;
+	width: 50%;
+	list-style-type: none;
+
+}
+.menu-aves a:hover{
+	color: black;
+	background-color: #FF7F69;
+
+}
+.menu-aves img{
+   float: right;
+}
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img1{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
